@@ -17,3 +17,9 @@ if flag == False:
     print("Number Not Found")
 
 demo.close # closes the txt file
+
+# An easier Search statement would be:
+if src in arr:
+    print("Number Found")
+else:
+    print("Number Found")
