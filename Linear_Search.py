@@ -14,12 +14,12 @@ for x in arr:
         flag = True
 
 if flag == False:
-    print("Number Not Found")
+    print("Number Not Found \n")
 
 demo.close # closes the txt file
 
 # An easier Search statement would be:
 if src in arr:
-    print("Number Found")
+    print("Updated Script: Number Found")
 else:
-    print("Number Found")
+    print("Updated Script: Number Not Found")
