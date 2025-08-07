@@ -8,7 +8,7 @@ print(arr)
 
 n = len(arr)
 
-for x in range(n-1):
+for x in range(n-1): # can be avoided with arr.sort()
     if arr[x] > arr[x+1]:
         temp=arr[x]
         arr[x]=arr[x+1]
