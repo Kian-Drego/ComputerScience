@@ -2,7 +2,9 @@
 
 A Level CS
 
-Note: To use and test the python files, install the repo as a pdf
+Note: To use and test the python files, install the repository as a pdf
+
+
 
 
 
