@@ -2,13 +2,12 @@
 
 Note: To use and test the python files, install the repository as a pdf
 <br /><br /><br />
-**Python Basics** - https://colab.research.google.com/drive/1lUc1DKq-HIyoxF6o9TrCCpSVj8h0Ty1k?usp=sharing
+**Python Basics** - https://tinyurl.com/y4yxvmn6
 
-**Python Strings** - https://colab.research.google.com/drive/1_IH4ihl-EigfbypvQVoVL0WvHVKnAlOq?usp=sharing
-
+**Python Strings** - https://tinyurl.com/57jeeyvp
 **Python Loops**:
-		For Loops - https://colab.research.google.com/drive/1Fy0hmc3EVFpwH0IIIPWO5EQjUy2u-xUy?usp=sharing
-		While Loops - https://colab.research.google.com/drive/1v18GYLlcrhl-a6ljSHlPulW2XS8VibHe?usp=sharing
+		For Loops - https://tinyurl.com/32mu6w5e
+		While Loops - https://tinyurl.com/3exfpesu
 		
-**Python Arrays** - https://colab.research.google.com/drive/1QRfuo3aSzR8CfFvQTkV93XvowOkp0wDO?usp=sharing
+**Python Arrays** - https://tinyurl.com/u3vd36un
 
