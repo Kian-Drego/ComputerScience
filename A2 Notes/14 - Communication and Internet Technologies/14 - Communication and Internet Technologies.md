@@ -16,4 +16,4 @@
 TCP/IP Protocol
 - Enables computers to communicate over the internet
 
- ![sd](Pasted%20image%2020250818184825.png)
+ ![Pasted image 2020250818184825](Pasted%20image%2020250818184825.png)
