@@ -11,6 +11,3 @@ Note: To use and test the python files, install the repository as a pdf
 		While Loops - https://tinyurl.com/3exfpesu
 		
 **Python Arrays** - https://tinyurl.com/u3vd36un
-
-
-![Pasted image 20250818182500.png](A2%20Notes/Assets/Pasted%20image%2020250818182500.png)
