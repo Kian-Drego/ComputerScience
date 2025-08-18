@@ -26,3 +26,4 @@ Enables computers to communicate over the internet and other networks
 - POP3 - used for receiving and downloading emails from a mail server using pull protocol (Users must make request to see new emails)
 - IMAP - used for receiving and downloading emails from a mail server using push protocol (emails are automatically delivered to user)
 - BitTorrent - peer-to-peer(P2P) file-sharing protocol used for distributing large files across the internet
+	- Swarm Downloading - files are broken down into different pieces, which can be stored with different users but downloaded and assembled back together by a single user
