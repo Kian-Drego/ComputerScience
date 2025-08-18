@@ -13,4 +13,4 @@ Note: To use and test the python files, install the repository as a pdf
 **Python Arrays** - https://tinyurl.com/u3vd36un
 
 
-![](C:\Users\drego\OneDrive\Pictures\Screenshots\Screenshot 2025-08-18 184725.png)
+![Pasted image 20250818182500.png](A2%20Notes/Assets/Pasted%20image%2020250818182500.png)
