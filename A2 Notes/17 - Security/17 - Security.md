@@ -69,7 +69,7 @@
 - Prevents hackers from interception traffic between client and server
 - TLS is newer and more secure than SSL
 
-SSL/TLS Steps
+### SSL/TLS Steps
 1) Client (on a web browser) tries to access a website which uses SSL/TLS (a handshake)
 2) Websites' server receiver connection and responds with a digital certificate, which contain s a public key and is validated by a certificate authority.
 3) The client's browser validates the authenticity of the digital certificate.
