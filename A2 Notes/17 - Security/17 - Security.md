@@ -60,3 +60,20 @@
 | Unhackable                                                                 | One works over short disances                                             |
 | Eavesdropping can be detected                                              | Hight error rate during transmission (new technology)                     |
 |                                                                            | Can be used by criminals to hide data transmissions                       |
+
+## Protocols (SSL/TLS)
+- SSL - Secure Sockets Lays
+- TLS - Transport Layer Security
+- Process used by web browser to encrypt communication between browser and a server
+- Confirms identity of client and server
+- Prevents hackers from interception traffic between client and server
+- TLS is newer and more secure than SSL
+
+SSL/TLS Steps
+1) Client (on a web browser) tries to access a website which uses SSL/TLS (a handshake)
+2) Websites' server receiver connection and responds with a digital certificate, which contain s a public key and is validated by a certificate authority.
+3) The client's browser validates the authenticity of the digital certificate.
+4) The browser generates a key for the current session using the public key, which is sent back to the server.
+5) The server uses its private key (which is used to generate the public key) to verify the session key
+6) Any further communication between the client's browser and server is encrypted (hashed) through the use of this session key
+
