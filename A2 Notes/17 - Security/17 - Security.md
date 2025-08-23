@@ -25,7 +25,7 @@
 
 - Main problem is securely sharing key between sender and recipient (key distribution problem)
 
-![](Assets/Pasted%20image%2020250823011126.png)
+![](../Assets/Pasted%20image%2020250823011126.png)
 
 ## Asymmetric Cryptography
 1) Both sender and receiver generate private and public key using an algorithm. The public key can only be generated and verified using the private key.
@@ -34,7 +34,7 @@
 2) The sender sends their public key to the recipient which the recipient uses to encrypt their message into ciphertext
 3) The recipient sends the ciphertext to the sender, who can use their private key to decrypt the message, which was encrypted with their own public key.
 - If the recipient want to receive a message from the sender, they need to complete the same process, first sending their own public key
-![](Assets/Pasted%20image%2020250823012153.png)
+![](../Assets/Pasted%20image%2020250823012153.png)
 
 ## Symmetric Cryptography vs Asymmetric Cryptography
 
