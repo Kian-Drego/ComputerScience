@@ -91,7 +91,7 @@
 - Contains website's public key, identifying information, Certificate Authority Information + CA private key, validity period, etc.
 - Browser can verify digital certificate using CA public key 
 
-Obtaining a Digital Certificate
+### Obtaining a Digital Certificate
 1) A website makes an inquiry to a Certificate Authority (CA)
 2) The CA investigates the website and any associated entities
 3) The CA verifies the identity and security of the website and issues a public key
