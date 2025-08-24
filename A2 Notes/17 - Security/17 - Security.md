@@ -77,3 +77,23 @@
 5) The server uses its private key (which is used to generate the public key) to verify the session key
 6) Any further communication between the client's browser and server is encrypted (hashed) through the use of this session key
 
+## Digital Signatures
+1) The sender uses a mathematical function called a has function to generate a hash value (also known as a message digest).
+2) The result is an alphanumeric value of a fixed-length, which is then encrypted using the same private key.
+3) This encrypted hash value is the digital signature and is then attached to unhashed version of the recipient.
+4) The message is sent to the recipient.
+5) The recipient decrypts the signature using their public key and puts the message they received through a hash function.
+6) The recipient compares the contents of the decrypted signature and the hashed message and if they are equal, the transmission is authentic
+
+![](../Assets/Pasted%20image%2020250825022914.png)
+
+- Verifies the identity of a website 
+- Contains website's public key, identifying information, Certificate Authority Information + CA private key, validity period, etc.
+- Browser can verify digital certificate using CA public key 
+
+Obtaining a Digital Certificate
+1) A website makes an inquiry to a Certificate Authority (CA)
+2) The CA investigates the website and any associated entities
+3) The CA verifies the identity and security of the website and issues a public key
+4) The website includes this public key in a certificate sent to a client attempting to connect using SSL
+5) The client (browser) verifies the certificate using the CAs digital signature in the certificate and communicates with the website by encrypting data with this public key
