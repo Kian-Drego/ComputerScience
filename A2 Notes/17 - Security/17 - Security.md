@@ -66,7 +66,7 @@
 - TLS - Transport Layer Security
 - Process used by web browser to encrypt communication between browser and a server
 - Confirms identity of client and server
-- Prevents hackers from interception traffic between client and server
+- Prevents hackers from interception traffic between client and server      
 - TLS is newer and more secure than SSL
 
 ### SSL/TLS Steps
