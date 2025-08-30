@@ -1,3 +1,5 @@
+import random as rd
+
 demo = open("demo.txt","r")
 arr = []
 for x in demo:
@@ -16,21 +18,23 @@ for x in range(n-1): # can be avoided with arr.sort()
             temp=arr[j]
             arr[j]=arr[j+1]
             arr[j+1]=temp
-
-def search(arr):
-    val = int(input("Input your value: "))
+print(arr)
+def search(arr, x):
     left = 0
     right = n-10
 
     while left <= right:
         mid = (left + right)//2
-        if arr[mid] == val:
+        if arr[mid] == x:
             return mid
-        elif arr[mid] < val:
+        elif arr[mid] < x:
             left = mid + 1
         else:
             right = mid - 1
 
     return -1
 
-print(search(arr))
+
+rnd = rd.randint(arr)
+print(rnd)
+print(search(arr, 4))
