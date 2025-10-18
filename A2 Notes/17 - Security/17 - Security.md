@@ -71,7 +71,7 @@
 
 ### SSL/TLS Steps
 1) Client (on a web browser) tries to access a website which uses SSL/TLS (a handshake)
-2) Websites' server receiver connection and responds with a digital certificate, which contain s a public key and is validated by a certificate authority.
+2) Websites' server receives connection and responds with a digital certificate, which contain s a public key and is validated by a certificate authority.
 3) The client's browser validates the authenticity of the digital certificate.
 4) The browser generates a key for the current session using the public key, which is sent back to the server.
 5) The server uses its private key (which is used to generate the public key) to verify the session key
